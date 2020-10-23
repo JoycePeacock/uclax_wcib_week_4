@@ -15,7 +15,7 @@ a:hover {
   text-shadow: none;
   /* Prevent inheritance from `body` */
   background-color: #fff;
-  border: .05rem solid #fff; }
+  border: .3rem solid #FFF200; }
 
 /*
  * Base structure
@@ -23,17 +23,16 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333; }
+  background: url("/images/background_image_plaid.jpg"); }
 
 body {
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); }
+  color: #003876;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5); }
 
 .cover-container {
-  max-width: 42em; }
+  max-width: 60em; }
 
 /*
  * Header
@@ -47,19 +46,19 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.5);
+  color: #1C75BC;
   background-color: transparent;
   border-bottom: .25rem solid transparent; }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.25); }
+  border-bottom-color: #ED1C24; }
 
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem; }
 
 .nav-masthead .active {
-  color: #fff;
+  color: #B6B2A3;
   border-bottom-color: #fff; }
 
 @media (min-width: 48em) {
@@ -83,3 +82,15 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, 0.5); }
+
+h1 {
+  font-family: optima, hevetica, sans-serif;
+  color: #003876;
+  font-weight: 100;
+  text-shadow: .3rem .3rem .7rem #1C75BC; }
+
+h3 {
+  background: #003876;
+  color: #ffffff;
+  padding: .2rem;
+  border: .2rem solid #FFF200; }
