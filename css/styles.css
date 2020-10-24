@@ -23,7 +23,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: url("/images/background_image_plaid.jpg"); }
+  background-image: url(../images/library_stairs.jpg); }
 
 body {
   display: -ms-flexbox;
